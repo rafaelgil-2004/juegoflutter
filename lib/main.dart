@@ -6,6 +6,7 @@ import 'objetos.dart';
 import 'habilidades.dart';
 import 'sprites.dart';
 import 'tema.dart';
+import 'audio_flutter.dart';
 
 void main() => runApp(const AplicacionRpg());
 
@@ -1438,6 +1439,7 @@ class _EstadoVistaCombate extends State<VistaCombate>
   void initState() {
     super.initState();
     _controlReposo.repeat();
+    AudioManager.playBgm('audio/Lugia_Song.mp3');
   }
 
   @override
