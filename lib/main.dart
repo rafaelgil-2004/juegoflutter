@@ -1782,7 +1782,7 @@ class _EstadoVistaCombate extends State<VistaCombate>
                           progreso: progMonstruo,
                         ),
                       ),
-                                            if (_efectoVisible)
+                      if (_efectoVisible)
                         Positioned(
                           left: xMonstruo - tamanoEfecto / 2,
                           bottom: yMonstruo - tamanoEfecto / 2,
